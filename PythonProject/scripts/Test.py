@@ -1,3 +1,5 @@
-if __name__ == "__main__":
+from dataLoader import loadData
 
-    print("test")
+if __name__ == "__main__":
+    df = loadData("data\gradesData.csv")
+    print(df.head())
