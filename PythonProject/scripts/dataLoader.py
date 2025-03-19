@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def loadData(filepath):
+def load_data(filepath):
 
     try:
         df = pd.read_csv(filepath)

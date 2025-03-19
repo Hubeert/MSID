@@ -1,6 +1,6 @@
 import pandas as pd
 
-from dataLoader import loadData
+from dataLoader import load_data
 
 
 def compute_statistics(df):
@@ -47,7 +47,7 @@ def save_statistics(statsNum, statsCat, statsCatProp):
     print("- class_proportions.csv")
 
 if __name__ == "__main__":
-    numStats, catStats, catPropStats = compute_statistics(loadData("data/gradesData.csv"))
+    numStats, catStats, catPropStats = compute_statistics(load_data("data/gradesData.csv"))
     print(numStats)
     print(catStats)
     print(catPropStats)
