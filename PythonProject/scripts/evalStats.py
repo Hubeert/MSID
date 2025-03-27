@@ -5,10 +5,9 @@ from dataLoader import load_data
 
 def compute_statistics(df):
 
-    # Statystyki dla cech numerycznych
+
     numCols = df.select_dtypes(include=['number']).columns
     catCols = df.select_dtypes(include=['object']).columns
-    nonuniqueCatCols = [col for col in catCols if df[col].nunique() < len(df[col]) * 0.05]
 
     statsNum = pd.DataFrame({
         'mean': df[numCols].mean(),
@@ -27,7 +26,7 @@ def compute_statistics(df):
     })
 
     proportions = []
-    for col in df[nonuniqueCatCols].columns:
+    for col in df[catCols].columns:
         valueCounts = df[col].value_counts(normalize=True)
         for value, proportion in valueCounts.items():
             proportions.append([col, value, proportion])
@@ -37,9 +36,9 @@ def compute_statistics(df):
     return statsNum, statsCat, statsCatProp
 
 def save_statistics(statsNum, statsCat, statsCatProp):
-    statsNum.to_csv("numeric_statistics.csv")
-    statsCat.to_csv("categorical_statistics.csv")
-    statsCatProp.to_csv("class_proportions.csv")
+    statsNum.to_csv("pngs/numeric_statistics.csv")
+    statsCat.to_csv("pngs/categorical_statistics.csv")
+    statsCatProp.to_csv("pngs/class_proportions.csv")
 
     print("Pliki zapisane poprawnie:")
     print("- numeric_statistics.csv")
@@ -47,7 +46,8 @@ def save_statistics(statsNum, statsCat, statsCatProp):
     print("- class_proportions.csv")
 
 if __name__ == "__main__":
-    numStats, catStats, catPropStats = compute_statistics(load_data("data/gradesData.csv"))
+    df = load_data("data/oral.csv")
+    numStats, catStats, catPropStats = compute_statistics(df)
     print(numStats)
     print(catStats)
     print(catPropStats)

@@ -1,0 +1,19 @@
+,missing_values,unique_classes
+Country,0,17
+Gender,0,2
+Tobacco Use,0,2
+Alcohol Consumption,0,2
+HPV Infection,0,2
+Betel Quid Use,0,2
+Chronic Sun Exposure,0,2
+Poor Oral Hygiene,0,2
+Diet (Fruits & Vegetables Intake),0,3
+Family History of Cancer,0,2
+Compromised Immune System,0,2
+Oral Lesions,0,2
+Unexplained Bleeding,0,2
+Difficulty Swallowing,0,2
+White or Red Patches in Mouth,0,2
+Treatment Type,0,5
+Early Diagnosis,0,2
+Oral Cancer (Diagnosis),0,2

@@ -1,0 +1,56 @@
+,feature,class,proportion
+0,Country,India,0.09513435858788065
+1,Country,Pakistan,0.09421586867949412
+2,Country,Sri Lanka,0.09420409316784814
+3,Country,Taiwan,0.09308541956147995
+4,Country,UK,0.05805327241468642
+5,Country,Germany,0.05780598667012082
+6,Country,USA,0.057594027460493157
+7,Country,Italy,0.05692282329667224
+8,Country,France,0.05632227220272721
+9,Country,Brazil,0.056074986458161606
+10,Country,Russia,0.055474435364216576
+11,Country,Egypt,0.03842349450083606
+12,Country,Nigeria,0.038341065919314195
+13,Country,Australia,0.03755210663903347
+14,Country,Kenya,0.03734014742940581
+15,Country,Japan,0.037116412708132165
+16,Country,South Africa,0.03633922893949742
+17,Gender,Male,0.7106639033466005
+18,Gender,Female,0.2893360966533996
+19,Tobacco Use,Yes,0.8006052612986034
+20,Tobacco Use,No,0.19939473870139657
+21,Alcohol Consumption,Yes,0.5998327877346271
+22,Alcohol Consumption,No,0.40016721226537294
+23,HPV Infection,No,0.7009373307270201
+24,HPV Infection,Yes,0.2990626692729799
+25,Betel Quid Use,No,0.7100515767410094
+26,Betel Quid Use,Yes,0.2899484232589906
+27,Chronic Sun Exposure,No,0.8014059960905301
+28,Chronic Sun Exposure,Yes,0.19859400390946988
+29,Poor Oral Hygiene,No,0.5019547349332328
+30,Poor Oral Hygiene,Yes,0.49804526506676716
+31,Diet (Fruits & Vegetables Intake),Moderate,0.39935470196180023
+32,Diet (Fruits & Vegetables Intake),Low,0.3991427427521726
+33,Diet (Fruits & Vegetables Intake),High,0.20150255528602717
+34,Family History of Cancer,No,0.9009208450107157
+35,Family History of Cancer,Yes,0.09907915498928428
+36,Compromised Immune System,No,0.8992722733802784
+37,Compromised Immune System,Yes,0.10072772661972162
+38,Oral Lesions,No,0.6996891264925461
+39,Oral Lesions,Yes,0.3003108735074539
+40,Unexplained Bleeding,No,0.7994512611572973
+41,Unexplained Bleeding,Yes,0.20054873884270272
+42,Difficulty Swallowing,No,0.7502060714538047
+43,Difficulty Swallowing,Yes,0.24979392854619534
+44,White or Red Patches in Mouth,No,0.648866018228492
+45,White or Red Patches in Mouth,Yes,0.35113398177150795
+46,Treatment Type,No Treatment,0.6007395021313676
+47,Treatment Type,Chemotherapy,0.1004333388285721
+48,Treatment Type,Surgery,0.10009184899083866
+49,Treatment Type,Targeted Therapy,0.09967970608322932
+50,Treatment Type,Radiation,0.09905560396599232
+51,Early Diagnosis,Yes,0.5476554956312851
+52,Early Diagnosis,No,0.4523445043687148
+53,Oral Cancer (Diagnosis),No,0.5013188573043499
+54,Oral Cancer (Diagnosis),Yes,0.4986811426956501
